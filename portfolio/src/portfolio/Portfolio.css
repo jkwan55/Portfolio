@@ -1,0 +1,157 @@
+
+.column {
+    display: flex;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column:not(:last-child) {
+    margin-right: 20px;
+    height: 50px;
+}
+
+body {
+    font-family: Arial;
+    color: #444444;
+    background-color: #FAFAFA;
+}
+
+img {
+    border-radius: 50%;
+}
+
+img.border {
+    border: 5px solid white;
+}
+
+.skills {
+    width: 20%;
+    text-align: start;
+    word-wrap: break-word;
+    text-wrap: wrap;
+}
+
+p.title {
+    margin-left: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 72px;
+    color: #202020;
+}
+
+p.pageTitle {
+    color: #202020;
+    top: 10%;
+    margin: 30px;
+    font-size: 32px;
+}
+
+p.subtitle {
+    display: flex;
+    color: #545454;
+    font-size: 20px;
+    margin: 0;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.sb {
+    justify-content: space-between;
+}
+
+p.desc {
+    margin-top: 20px;
+    text-align: start;
+    font-size: 18px;
+    color: #575757;
+}
+
+p.expDesc {
+    display: flex;
+    font-size: 16px;
+    color: gray;
+}
+
+.projDesc {
+    width: 80%;
+    text-align: start;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.projects {
+    margin: 0;
+}
+
+.container {
+    height: inherit;
+    position: relative;
+    border: 3px solid transparent;
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #bd5d38;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 5px 0px 20px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    text-align: center;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1
+}
+
+.main {
+    margin-left: 200px;
+    font-size: 28px;
+    padding: 0px 10px;
+}
+
+@media screen and (max-width: 450px) {
+    .sidenav {
+        height: 0;
+        width: 0;
+        position: fixed;
+        z-index: 0;
+        top: 0;
+        left: 0;
+        background-color: #bd5d38;
+        overflow-x: hidden;
+        padding-top: 0;
+    }
+
+    .sidenav a {
+        padding: 0;
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        display: block;
+        text-align: center;
+    }
+
+    .main {
+        margin-left: 0;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
