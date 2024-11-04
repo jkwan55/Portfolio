@@ -1,5 +1,5 @@
 import './Portfolio.css';
-import profile from '../assets/profile.jpg';
+import profile from '../assets/profile_new.jpg';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
