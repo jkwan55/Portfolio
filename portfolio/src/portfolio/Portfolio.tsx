@@ -61,7 +61,7 @@ const Portfolio = () => {
                             <div style={{display: "flex", width: "66%"}}>Full Stack Software Engineer</div>
                             <span style={{display: "flex"}}>December 2023 - Current</span>
                         </p></b>
-                        <p style={{fontSize: "18px", display: "flex", color:"gray", marginTop: "0"}}><b>Care.Coach</b></p>
+                        <p style={{fontSize: "18px", display: "flex", color:"gray", marginTop: "0"}}><b>Jolt Studio Gym</b></p>
                         <p className="expDesc" style={{margin: 0, textAlign: "start"}}>
                             • Designed and implemented the website's infrastructure to process orders and payments via Square, reducing client service time by more than 25%. <br/>
                             • Deployed an admin portal to manage user details, create events, and view a dynamic schedule, decreasing lookup time by 50%. <br/>
@@ -72,7 +72,7 @@ const Portfolio = () => {
                             <div style={{display: "flex", width: "66%"}}>Full Stack Software Engineer</div>
                             <span style={{display: "flex"}}>May 2021 - December 2022</span>
                         </p></b>
-                        <p style={{fontSize: "18px", display: "flex", color:"gray", marginTop: "0"}}><b>Care.Coach</b></p>
+                        <p style={{fontSize: "18px", display: "flex", color:"gray", marginTop: "50px"}}><b>Care.Coach</b></p>
                         <p className="expDesc" style={{margin: 0, textAlign: "start"}}>
                             • Maintain and improved upon features of the web application that the staff used to interact with our clients. <br/>
                             • Designed pagination of the client list using Javascript with React which reduced the website load time by more than 50%. <br/>
