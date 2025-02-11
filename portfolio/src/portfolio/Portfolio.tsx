@@ -68,11 +68,11 @@ const Portfolio = () => {
                             • Developed secure user authentication to collect user information, enable form signing, and manage recurring orders.
                         </p>
 
-                        <b><p className="subtitle sb">
+                        <b><p className="subtitle sb" style={{marginTop: "50px"}}>
                             <div style={{display: "flex", width: "66%"}}>Full Stack Software Engineer</div>
                             <span style={{display: "flex"}}>May 2021 - December 2022</span>
                         </p></b>
-                        <p style={{fontSize: "18px", display: "flex", color:"gray", marginTop: "50px"}}><b>Care.Coach</b></p>
+                        <p style={{fontSize: "18px", display: "flex", color:"gray", marginTop: "0"}}><b>Care.Coach</b></p>
                         <p className="expDesc" style={{margin: 0, textAlign: "start"}}>
                             • Maintain and improved upon features of the web application that the staff used to interact with our clients. <br/>
                             • Designed pagination of the client list using Javascript with React which reduced the website load time by more than 50%. <br/>
