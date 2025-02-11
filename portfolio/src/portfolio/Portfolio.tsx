@@ -23,7 +23,7 @@ const Portfolio = () => {
                         <p className="subtitle jcc"><a href="mailto:JimmyGeeKwan@gmail.com">JimmyGeeKwan@gmail.com</a>
                         </p>
                         <p className="desc">
-                            Full Stack Software Engineer with 2 years of experience working with React with TypeScript, Django with Python, Relational Database Management Systems with SQL, and cloud services like Microsoft Azure, Amazon Web Services, and Google Cloud.<br/></p>
+                            Full Stack Software Engineer with over 2 years of experience working with React with TypeScript, Django with Python, Relational Database Management Systems with SQL, and cloud services like Microsoft Azure, Amazon Web Services, and Google Cloud.<br/></p>
                         <div className="row">
                             <div className="column">
                                 <a href="https://github.com/jkwan55?tab=repositories" target="_blank">
@@ -46,8 +46,9 @@ const Portfolio = () => {
                     <p className="pageTitle"><b>SKILLS </b></p>
                         <p className="expDesc" style={{marginTop: "12px;"}}><b className='skills'>Languages: </b><div style={{display: "flex", textAlign: "start"}}>SQL, GraphQL, Python, JavaScript, TypeScript, Java, HTML</div></p>
                         <p className="expDesc" style={{marginTop: "12px;"}}><b className='skills'>Frameworks: </b><div style={{display: "flex", textAlign: "start"}}>Django, Flask, Express</div></p>
+                        <p className="expDesc" style={{marginTop: "12px;"}}><b className='skills'>Cloud Platforms: </b><div style={{display: "flex", textAlign: "start"}}>Amazon Web Services, Microsoft Azure, Google Cloud Platform</div></p>
                         <p className="expDesc" style={{marginTop: "12px;"}}><b className='skills'>Other Technologies: </b><div style={{display: "flex", textAlign: "start"}}>React, Nodejs, Webpack, MySQL, Git, Nginx, Gunicorn</div></p>
-                        <p className="expDesc" style={{marginTop: "12px;"}}><b className='skills'>Experienced With: </b><div style={{display: "flex", textAlign: "start"}}>RDBMS, Amazon Web Services, Microsoft Azure, Agile/Scrum, SDLC, and UI/UX</div></p>
+                        <p className="expDesc" style={{marginTop: "12px;"}}><b className='skills'>Experienced With: </b><div style={{display: "flex", textAlign: "start"}}>RDBMS, Square, Agile/Scrum, SDLC, and UI/UX</div></p>
                     </div>
                 </div>
             </div>
@@ -56,6 +57,17 @@ const Portfolio = () => {
 
                     <div style={{display: "flex", flexDirection: "column", marginTop: "5%", marginBottom: "5%"}}>
                         <p className="pageTitle"><b>EXPERIENCE </b></p>
+                        <b><p className="subtitle sb">
+                            <div style={{display: "flex", width: "66%"}}>Full Stack Software Engineer</div>
+                            <span style={{display: "flex"}}>December 2023 - Current</span>
+                        </p></b>
+                        <p style={{fontSize: "18px", display: "flex", color:"gray", marginTop: "0"}}><b>Care.Coach</b></p>
+                        <p className="expDesc" style={{margin: 0, textAlign: "start"}}>
+                            • Designed and implemented the website's infrastructure to process orders and payments via Square, reducing client service time by more than 25%. <br/>
+                            • Deployed an admin portal to manage user details, create events, and view a dynamic schedule, decreasing lookup time by 50%. <br/>
+                            • Developed secure user authentication to collect user information, enable form signing, and manage recurring orders.
+                        </p>
+
                         <b><p className="subtitle sb">
                             <div style={{display: "flex", width: "66%"}}>Full Stack Software Engineer</div>
                             <span style={{display: "flex"}}>May 2021 - December 2022</span>
@@ -69,6 +81,7 @@ const Portfolio = () => {
                             • Deployed security standards to meet requirements for a large investment from Anthem. <br/>
                             • Mentored a handful of employees on code development and deployment standards.    
                         </p>
+
                         <b><p className="subtitle sb" style={{marginTop: "50px"}}>
                             <div style={{display: "flex", width: "66%"}}>TEACHING ASSISTANT</div>
                             <span style={{display: "flex"}}>June 2018 - May 2019</span>
